@@ -13,6 +13,11 @@ const router = createRouter({
       name: 'Line',
       component: () => import('../views/LineExample.vue'),
     },
+    {
+      path: '/journey',
+      name: 'Journey',
+      component: () => import('../views/ThreeJsJourney.vue'),
+    },
   ],
 })
 
