@@ -1,39 +1,37 @@
-# threejs-vue
+# 🎯 Three.js with Vue – Learning Playground
 
-This template should help get you started developing with Vue 3 in Vite.
+This repository is a personal learning playground for mastering [Three.js](https://threejs.org/) using [Vue 3](https://vuejs.org/).  
+Every new concept or feature is implemented in an isolated route/page, making it easy to focus, iterate, and revisit specific topics.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🧠 Objectives
 
-## Type Support for `.vue` Imports in TS
+- Learn Three.js from scratch using native API (not wrappers)
+- Build practical, visual demos for each key concept
+- Maintain a modular and scalable codebase using Vue 3 + Vite
+- Improve 3D performance awareness and integration techniques
+- Document my 3D learning journey step by step
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+---
 
-## Customize configuration
+## 🧱 Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Vue 3](https://vuejs.org/) – Application structure and routing
+- [Three.js](https://threejs.org/) – Core 3D rendering engine
+- [Vite](https://vitejs.dev/) – Fast dev server & build tool
+- [Vue Router](https://router.vuejs.org/) – Page-based navigation
 
-## Project Setup
+---
 
-```sh
-pnpm install
+## 🗂️ Structure
+
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
+src/
+├── assets/          # Static assets
+├── components/      # Reusable Vue components
+├── router/          # Vue Router configuration
+├── views/           # Page-based views
+├── App.vue          # Root component
+└── main.ts          # Entry point
 ```
